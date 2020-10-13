@@ -42,8 +42,10 @@ exports.onPostBootstrap = function(_ref, options) {
           try {
             if (lng === 'en') {
               require('./lang/en')
-            } else if (lng === 'de') {
-              require('./lang/en')
+            } else if (lng === 'es') {
+              require('./lang/es')
+            } else if (lng === 'pt') {
+              require('./lang/pt')   
             } else {
               console.error(
                 'Language not supported by pre-defined stemmer or filter'
